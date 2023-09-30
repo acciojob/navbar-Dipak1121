@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.nav{
+	display: flex;
+	width: 90vw;
+	justify-content: space-between;
+	background-color: #6e072d;
+}
+li{
+	display: inline;
+	color: white;
+	font-size: 18px;
+	padding: 18px 27px;
+}
+li:hover{
+	background-color: #b90e4d;
+	cursor: pointer;
+}
+.bord{
+	border-right: 2px solid white;
+}
